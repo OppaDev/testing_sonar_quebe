@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jsOvRzkix2U=",
+  "dgSpecHash": "4YvWzb7Vg6g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+  "projectFilePath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OppaDev\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\OppaDev\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

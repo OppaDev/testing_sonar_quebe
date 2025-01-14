@@ -5152,12 +5152,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+      "projectUniqueName": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
       "projectName": "GestionProductos",
-      "projectPath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
+      "projectPath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\GestionProductos\\GestionProductos.csproj",
       "packagesPath": "C:\\Users\\OppaDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\GestionProductos\\GestionProductos\\obj\\",
+      "outputPath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\GestionProductos\\obj\\",
       "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
+      "CentralPackageTransitivePinningEnabled": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -5180,6 +5182,9 @@
         }
       },
       "warningProperties": {
+        "noWarn": [
+          "NU1507"
+        ],
         "warnAsError": [
           "NU1605"
         ]
@@ -5197,18 +5202,26 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.0, )",
+            "versionCentrallyManaged": true
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.0, )",
+            "versionCentrallyManaged": true
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[6.6.2, )"
+            "version": "[6.6.2, )",
+            "versionCentrallyManaged": true
           }
+        },
+        "centralPackageVersions": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.0",
+          "Swashbuckle.AspNetCore": "6.6.2"
         },
         "imports": [
           "net461",
