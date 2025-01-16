@@ -312,4 +312,3 @@ C:\Users\OppaDev\Desktop\Pruebas de Software\Segundo parcial\testing_sonar_quebe
 C:\Users\OppaDev\Desktop\Pruebas de Software\Segundo parcial\testing_sonar_quebe\GestionProductos\GestionProductos\obj\Debug\net9.0\GestionProductos.pdb
 C:\Users\OppaDev\Desktop\Pruebas de Software\Segundo parcial\testing_sonar_quebe\GestionProductos\GestionProductos\obj\Debug\net9.0\GestionProductos.genruntimeconfig.cache
 C:\Users\OppaDev\Desktop\Pruebas de Software\Segundo parcial\testing_sonar_quebe\GestionProductos\GestionProductos\obj\Debug\net9.0\ref\GestionProductos.dll
-C:\Users\OppaDev\Desktop\Pruebas de Software\Segundo parcial\testing_sonar_quebe\GestionProductos\GestionProductos\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

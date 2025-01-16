@@ -5,22 +5,29 @@ namespace GestionProductos.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductosController : Controller
+    public class ProductosController : ControllerBase
     {
         private readonly AppDBContext _dbContext;
-        public string password;
 
         public ProductosController(AppDBContext dbContext)
         {
             _dbContext = dbContext;
         }
-
+        //obtener todos los productos
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
             return Ok(await _dbContext.Productos.ToListAsync());
         }
-
+        //obtener un producto
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProduct(int id)
+        {
+            var producto = await _dbContext.Productos.FindAsync(id);
+            if (producto == null) return NotFound();
+            return Ok(producto);
+        }
+        //crear
         [HttpPost]
         public async Task<IActionResult> CreateProduct(Producto producto)
         {
@@ -29,10 +36,24 @@ namespace GestionProductos.Controllers
             await _dbContext.SaveChangesAsync();
             return Ok(producto);
         }
+        //actualizar un producto
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct(Producto producto)
+        {
+            _dbContext.Entry(producto).State = EntityState.Modified;
+            await _dbContext.SaveChangesAsync();
+            return Ok(producto);
+        }
 
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
+        //eliminar
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var producto = await _dbContext.Productos.FindAsync(id);
+            if (producto == null) return NotFound();
+            _dbContext.Productos.Remove(producto);
+            await _dbContext.SaveChangesAsync();
+            return Ok(producto);
+        }
     }
 }

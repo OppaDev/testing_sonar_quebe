@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86F47867-DB01-44ED-ACF6-3FE2CDEADC4B}|TestProjectGestionProductos\\TestProjectGestionProductos.csproj|c:\\users\\oppadev\\desktop\\pruebas de software\\segundo parcial\\testing_sonar_quebe\\gestionproductos\\testprojectgestionproductos\\categoriescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86F47867-DB01-44ED-ACF6-3FE2CDEADC4B}|TestProjectGestionProductos\\TestProjectGestionProductos.csproj|solutionrelative:testprojectgestionproductos\\categoriescontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86F47867-DB01-44ED-ACF6-3FE2CDEADC4B}|TestProjectGestionProductos\\TestProjectGestionProductos.csproj|c:\\users\\oppadev\\desktop\\pruebas de software\\segundo parcial\\testing_sonar_quebe\\gestionproductos\\testprojectgestionproductos\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86F47867-DB01-44ED-ACF6-3FE2CDEADC4B}|TestProjectGestionProductos\\TestProjectGestionProductos.csproj|solutionrelative:testprojectgestionproductos\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\TestProjectGestionProductos\\CategoriesControllerTest.cs",
+              "RelativeDocumentMoniker": "TestProjectGestionProductos\\CategoriesControllerTest.cs",
+              "ToolTip": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\TestProjectGestionProductos\\CategoriesControllerTest.cs",
+              "RelativeToolTip": "TestProjectGestionProductos\\CategoriesControllerTest.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:09:57.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\TestProjectGestionProductos\\ProductControllerTest.cs",
+              "RelativeDocumentMoniker": "TestProjectGestionProductos\\ProductControllerTest.cs",
+              "ToolTip": "C:\\Users\\OppaDev\\Desktop\\Pruebas de Software\\Segundo parcial\\testing_sonar_quebe\\GestionProductos\\TestProjectGestionProductos\\ProductControllerTest.cs",
+              "RelativeToolTip": "TestProjectGestionProductos\\ProductControllerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:35:09.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

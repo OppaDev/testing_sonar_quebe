@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
+using System.Text.Json.Serialization;
 
 namespace GestionProductos
 {
@@ -9,15 +11,24 @@ namespace GestionProductos
         }
 
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
 
     }
 
     public class Producto
     {
-        public int Id { get; set; }
+        public required int Id { get; set; }
         public string? Nombre { get; set; }
         public string? Descripcion { get; set; }
-        public decimal? Precio { get; set; }
+        [JsonRequired] public decimal Precio { get; set; }
         public int? Stock { get; set; }
+        public int? CategoriaId { get; set; }
+    }
+
+    public class Categoria
+    { 
+        public required int Id { get; set; }
+        public string? Nombre { get; set; }
+        public string? Descripcion { get; set; }
     }
 }
